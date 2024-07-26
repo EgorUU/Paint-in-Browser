@@ -1,0 +1,36 @@
+.choices {
+    width: 350px;
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    
+}
+.choices div {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.choices-black {
+    background-color: #000;
+}
+
+.choices-yellow {
+    background-color: yellow;
+}
+
+.choices-red {
+    background-color: red;
+}
+.active {
+    border-bottom: 4px solid white;
+}
+.choices-eraser {
+    background-color: #fff;
+    border: 2px solid black;
+}
+#canvas {
+    cursor: url('./iconBlue.ico'), auto;
+}
+.choices-blue {
+    background-color: blue;
+}
