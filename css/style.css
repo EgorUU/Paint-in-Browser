@@ -29,7 +29,8 @@
     border: 2px solid black;
 }
 #canvas {
-    cursor: url('./iconBlue.ico'), auto;
+    cursor: url('../images/iconBlue.ico'), auto;
+    color: white;
 }
 .choices-blue {
     background-color: blue;
